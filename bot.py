@@ -57,7 +57,7 @@ async def delfilter(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def setsession(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Please run `python client.py` to set up your Telegram user session.")
 
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN_HERE").build()
+app = ApplicationBuilder().token("8016050256:AAGU-eLX0gZaQYYDJ4bNwjYDIVsO2Glzp3s").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("addsource", addsource))
 app.add_handler(CommandHandler("adddestination", adddestination))
