@@ -5,6 +5,9 @@ from telethon import TelegramClient, events
 from userbot.session_manager import login_userbot
 from dotenv import load_dotenv
 import json
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Load .env file
 load_dotenv()
